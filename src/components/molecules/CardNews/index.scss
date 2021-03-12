@@ -1,0 +1,38 @@
+.card-news {
+  background: #fff;
+  padding: 1rem;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+  margin-bottom: 1.6rem;
+
+  &__img {
+    height: 14rem;
+    width: 14rem;
+    flex: 0 0 14rem;
+    margin-right: 1.2rem;
+  }
+
+  &__content {
+    align-self: center;
+    font-size: 1.2rem;
+    color: #8b8c8d;
+
+    &__title {
+      font-size: 1.4rem;
+      font-weight: 500;
+      margin-bottom: 1rem;
+      color: #000;
+    }
+    &__categories {
+      font-size: 1.2rem;
+      font-weight: 400;
+      margin-bottom: 1rem;
+      margin-top: 1rem;
+      color: #000;
+    }
+    &__date {
+      padding-right: 1.6rem;
+      margin-top: 1rem;
+      text-align: end;
+    }
+  }
+}

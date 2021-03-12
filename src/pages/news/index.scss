@@ -1,0 +1,12 @@
+.news {
+  &__title {
+    font-size: 2rem;
+    margin: 1.6rem 0;
+  }
+
+  &__btn {
+    padding: .5rem 2rem;
+    background: #fff;
+    border: 1px solid lightgray;
+  }
+}

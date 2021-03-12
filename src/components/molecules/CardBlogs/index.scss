@@ -1,0 +1,55 @@
+.card-blogs {
+  background: #e3e6f6;
+  padding: 1rem;
+  border-radius: 3px;
+
+  &:not(:last-child) {
+    margin-bottom: .8rem;
+  }
+
+  &__img {
+    width: 5rem;
+    height: 5rem;
+    flex: 0 0 5rem;
+    margin-right: 1rem;
+  }
+
+  &__content {
+    font-size: 1.2rem;
+    color: #8b8c8d;
+
+    &__title {
+      font-size: 1.4rem;
+      font-weight: 500;
+      margin-bottom: .5rem;
+      color: #5f6370;
+    }
+
+    &__text {
+      height: 54px;
+      overflow: hidden;
+    }
+
+    &__date {
+      padding-right: 1rem;
+      text-align: end;
+      color: #50545e;
+      font-weight: 700;
+      font-size: 1.1rem;
+    }
+
+    &__read-more:link,
+    &__read-more:visited {
+      display: block;
+      color: #545882;
+      font-size: 1.2rem;
+      font-weight: 600;
+      text-decoration: none;
+      margin-top: .5rem;
+    }
+
+    &__read-more:hover {
+      text-decoration: underline;
+    }
+  }
+}

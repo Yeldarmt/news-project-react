@@ -1,0 +1,15 @@
+.carousel {
+  height: 30vh;
+  .carousel-item img {
+    height: 30vh;
+  }
+}
+
+.carousel-content {
+  background: #2b5067;
+
+  p {
+    height: 15px;
+    overflow: hidden;
+  }
+}

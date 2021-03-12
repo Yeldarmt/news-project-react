@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './index.scss';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.css';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Layout from "./components/organisms/Layout/Layout";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Layout/>
   </React.StrictMode>,
   document.getElementById('root')
 );
