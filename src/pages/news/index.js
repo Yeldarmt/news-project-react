@@ -10,13 +10,14 @@ function News(props) {
   const maxItemToShow = 4;
   // const [category, setCategory] = useState('');
   const [itemsToShow, setItemsToShow] = React.useState(maxItemToShow);
-  const [filteredArray, setFilteredArray] = React.useState(newsArray);
+  const [filteredArray, setFilteredArray] = React.useState(newsArr);
+  console.log('filteredArray', filteredArray);
   useEffect(
     () => {
       if (props) {
         let query = new URLSearchParams(props.location.search);
         let category = query.get('category');
-        if (category) {
+        if (category && category.length > 0) {
           const fArray = newsArr.filter((n) => n.categories.includes(category));
           setFilteredArray(fArray);
         }
